@@ -1,0 +1,25 @@
+.Clone o código para facilitar:
+
+https://github.com/gvendrami/Paginacao_BD.git
+
+.Entre no diretório antes de executar os próximos comandos:
+
+cd paginacao
+
+.Instale o node_module (dependencias) para rodar o aplicativo:
+
+npm run install
+
+.Crie um arquivo '.env' e coloque as seguintes informações:
+
+MONGODB_URI=<sua conexao com o banco mongoDB>
+PORT=3000
+
+.Inicie o projeto:
+
+nide index.js
+
+.Acesse o site do servidor para utilizar:
+
+http://localhost:3000
+

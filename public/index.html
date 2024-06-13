@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Livros Disponíveis</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>ISBN</th>
+                    <th>Páginas</th>
+                    <th>Ano</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody id="book-table"></tbody>
+        </table>
+
+        <div id="total-books">Exibição: 1 até 10 de 0 livros</div>
+
+        <div class="pagination">
+            <button id="primeira_pagina">&laquo;&laquo;</button>
+            <button id="pagina_anterior">&laquo;</button>
+            <div id="botoes_paginas"></div>
+            <button id="proxima_pagina">&raquo;</button>
+            <button id="ultima_pagina">&raquo;&raquo;</button>
+        </div>
+       
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
